@@ -1,0 +1,221 @@
+/* @import url('https://fonts.googleapis.com/css?family=Geostar+Fill&display=swap'); */
+
+
+/* -----------ICONOS */
+@font-face {
+    font-family: 'icon';
+    src:  url('iconos/icomoon.eot?jjiiv6');
+    src:  url('iconos/icomoon.eot?jjiiv6#iefix') format('embedded-opentype'),
+      url('iconos/icomoon.ttf?jjiiv6') format('truetype'),
+      url('iconos/icomoon.woff?jjiiv6') format('woff'),
+      url('iconos/icomoon.svg?jjiiv6#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+ 
+  
+body{
+    width: 80%;
+    margin:0 auto;
+    background:black;
+}
+p{
+    font-family: 'Geostar Fill', cursive;
+}
+article{
+    font-family: 'Geostar Fill', cursive;
+}
+h1{
+    font-family: 'Geostar Fill', cursive;
+}
+h2{
+    font-family: 'Geostar Fill', cursive;
+}
+h3{
+    font-family: 'Geostar Fill', cursive;
+}
+li{
+    font-family: 'Geostar Fill', cursive;
+}
+/*-----BARRA DE NAVEGACION------*/
+nav{
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    position:fixed;
+    background-color: black;
+    top:0px;
+    left: 0px;
+    z-index: 1;
+}
+#inicio{
+    color:red;
+}
+li{
+    margin:20px;
+    /* background: white; */
+    color:white;
+    display: inline-block;
+}
+#elementosNav{
+    text-align:center;
+}
+/*--------HEADER-------*/
+header{
+    text-align: center;
+    /* border:2px solid blue; */
+    position: relative;
+    top:100px;
+}
+h1{
+    color:white;
+}
+span{
+    color:red;
+}
+#mision{
+    width: 550px;
+    color:white;
+    margin:0 auto;
+}
+/*-------SECTION-------*/
+section{
+    margin:0 auto;
+    width:100%;
+    /* border:2px solid red; */
+    position:relative;
+    top:100px;
+}
+#primeraCaja{
+    text-align: center;/*SI lo pone en el centro*/
+    margin:0px auto;/*no lo pone en el centro de esta manera*/
+    /* border:20px solid black; */
+}
+h2{
+    /* margin:0 auto; */
+    color:white;
+}
+#publicidad{
+
+}
+/*-----------------------segunda caja*/
+#segundaCaja{
+    /* margin:0px auto;//en este caso este SI lo pone al centro */
+    text-align: center;/* este no lo pone al centro */
+    width:100%;
+    /* border:2px solid gold; */
+}
+#losArticulos{
+    color:white;
+    text-align: center;
+}
+#mujer{
+    width:50%;
+    height:250px;
+    /* border:1px solid blue; */
+    background-image:url("/imgs/1raCaja/mujer.jpg");
+    background-size: cover;
+    float:left;
+    position: relative;
+}
+#vino{
+    width:50%;
+    height:250px;
+    /* border:1px solid blue; */
+    background-image:url("/imgs/1raCaja/vino.jpg");
+    background-size: cover;
+    position: absolute;
+    left:50%;
+}
+
+
+/* ---------------tres cajas juntas de la segunda caja */
+#tresCajas{
+    width: 100%;
+    /* height: 260px; */
+    clear: both;
+    /* border:1px solid red; */
+
+}
+#keto{
+    width:33.33%;
+    height:250px;
+    /* border:1px solid blue; */
+    float:left;
+    position: absolute;
+    background-image: url("/imgs/1raCaja/keto.jpg");
+    background-size: cover;
+    
+}
+#manos{
+    width:33.33%;
+    height:250px;
+    /* border:1px solid blue; */
+    float: right;
+    clear: left;
+    position: absolute;
+    left: 33.33%;
+    background-image: url("/imgs/1raCaja/manos.jpg");
+    background-size: cover;
+    
+}
+#proteina{
+    width:33.33%;
+    height:250px;
+    /* border:1px solid blue; */
+    position: absolute;
+    left:66.66%;
+    background-image: url("/imgs/1raCaja/proteina.jpg");
+    background-size: cover;
+    
+}
+
+
+p[id^=descripcion]{
+    color:white;
+    position:absolute;
+    left: 20px;
+    top:180px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* --------------------iconos */
+footer{
+    /* border: 2px solid red; */
+    width:500px;
+    position: absolute;
+    top:5950px;
+    z-index: 2;
+}
+.telefono:before {
+    content: "\e942";
+    font-family: 'icon';
+  }
+  .redSocial:before {
+    content: "\ea90";
+    font-family: 'icon';
+  }
+  .youtube:before {
+    content: "\ea9e";
+    font-family: 'icon';
+  }
+
+
+
+

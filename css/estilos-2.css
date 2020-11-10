@@ -1,0 +1,20 @@
+#terceraCaja{
+    width: 68%;
+    background-color: white;
+    position: absolute;
+    top:900px;
+    display:flex;
+    flex-direction:row;/* la dirección del flex sera en fila */
+    justify-content: center;
+    flex-wrap: wrap;/* evita que los elementos salgan de su contenedor */
+}
+div[id^="articulo"]{
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    /* background: green; */     
+}
+#terceraCaja div h2,article{
+    color: rgb(15, 15, 15);
+}
+

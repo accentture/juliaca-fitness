@@ -1,0 +1,77 @@
+aside{
+    width: 28%;
+    /* background: blue; */
+    position: absolute;
+    left: 72%;
+    top:900px;
+}
+/* ---------------todas las cajas del aside */
+aside div{
+    padding: 20px;
+    padding-top:1px;
+    background:white;
+    margin-bottom:30px;
+}
+aside h2{
+    color:black;
+    font-size:22px; 
+    font-weight: bolder; 
+    border-bottom: 2px solid rgb(214, 45, 45);  
+}
+
+/* --------------formulario de resgistro */
+#formRegistro{
+    
+    
+    
+}
+#formRegistro h2{
+   /*  color:black;
+    font-size:22px; 
+    font-weight: bolder; 
+    border-bottom: 2px solid rgb(214, 45, 45); */
+}
+#formRegistro  h3{
+    margin-bottom:2px;
+    color:rgb(68, 65, 65);
+    font-size:15px;
+    font-weight: lighter;
+}
+input#texto{
+    
+    width:90%;
+    height: 30px;
+    border: 1px solid rgb(199, 193, 193);
+}
+#formRegistro  input#boton{
+    margin-top: 10px;
+    padding: 8px;
+    background: rgb(233, 74, 74);
+    color:white;
+    font-size: 18px;
+    border-radius: 8px;  
+}
+
+/* -----------------------sobre victor */
+#victor{
+
+}
+#victor h2{
+    border-bottom: 2px solid rgb(214, 45, 45);
+    /* font-family: 'Metal Mania', cursive; */
+}
+#victor ul li{
+    color:black;
+    margin: 3px;
+    list-style: none inside;
+    padding-left: 0px;
+       
+}
+/* ------------------------servicios */
+#servicios img{
+    margin-bottom: 13px;
+}
+/* ------------------------todas las imagenes */
+aside img{
+    margin: 0px auto;
+}
